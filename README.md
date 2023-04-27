@@ -1,6 +1,11 @@
 # teaching-github
 A repository for my team to learn and understand GitHub.
 
+# Before we begin
+GitHub may seem like some entirely new technology where every project is worked upon, but it's very easy to get used to. GitHub is the best way for a team to work on a project as everybody can work on the same code without causing any harm to the main code.
+
+Below steps are meant to be a way for anybody novice at GitHub to understand the basics of cloning and pushing while also understanding branching and pull request model which are practiced in the current industry. I hope this repository can act as a guide for you.
+
 # GitHub pre-requisites
 Visit [GitHub's documentation](https://docs.github.com/en/get-started/quickstart/set-up-git#setting-up-git) to install Git Bash and set-up everything on your local system.
 
@@ -78,6 +83,19 @@ By following the above step, you will be able to edit the PR on GitHub's editor.
 ![Conversation](https://user-images.githubusercontent.com/93420999/234681510-61361da1-c493-4f14-94a1-5737271d49e7.png)
 
 Once a maintainer approves your changes, then finally your pull request will be merged to the `main` branch.
+
+## Keeping your code up-to-date
+- Now that you have multiple branches and several versions of code scattered around GitHub and your local storage. You need to make sure that you always have the updated code before pushing to GitHub to avoid **merge conflicts**.
+- Before starting to work on your code, you must ensure that your branch is up-to-date with the `main` branch.
+![Branch PR](https://user-images.githubusercontent.com/93420999/234939202-4c2bafb7-f1bf-4db9-9d23-e8826943df21.png)
+- If your branch is *n commits behind main*, you need to open a pull request to merge `main` branch content to your branch.
+
+- To bring these changes in your local, use the following command:
+```
+git pull
+```
+
+It is a good developer practice to always pull updated code before pushing your modified code to the repository.
 
 # Conclusion
 Take everything one step at a time. Everything here may feel overwhelming as there are too many things to be aware of, but following this guide will help you grasp the concepts of Git and GitHub, from basic cloning to creating your first pull request.
