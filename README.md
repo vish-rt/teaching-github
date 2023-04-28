@@ -6,6 +6,8 @@ GitHub may seem like some entirely new technology where every project is worked 
 
 Below steps are meant to be a way for anybody novice at GitHub to understand the basics of cloning and pushing while also understanding branching and pull request model which are practiced in the current industry. I hope this repository can act as a guide for you.
 
+If you wish to learn GitHub through this repository, create an issue and I will add you as collaborator, providing you access to create branches in this repository
+
 # GitHub pre-requisites
 Visit [GitHub's documentation](https://docs.github.com/en/get-started/quickstart/set-up-git#setting-up-git) to install Git Bash and set-up everything on your local system.
 
