@@ -70,6 +70,10 @@ git branch -a
 ```
 - For switching between branches, use the `git checkout <branch name>` command, replacing it with the actual branch name.
 - Before committing any changes you need to ensure that you are pushing to the correct branch using `git branch` command, otherwise you may make a fellow contributor very unhappy.
+- You can also push to a specific `<branch name>` using:
+```
+git push origin <branch name>
+```
 
 ## Pull Requests
 - Usually in organizations, the `main` branch is locked by the repository admin to ensure that no outside contributor directly edits the main source code of the project.
